@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Palette+Mosaic&family=Shizuru&display=swap');
+body{
+    font-family: 'Oswald Palette Mosai Shizuru', sans-serif cursive;
+ height: 6000px;
+}
+
+.menuBtn{
+  display: none;
+}
+ .firstCon  img{
+width:300px;
+height: 300px;
+margin: 50px auto;
+
+}
+
+.firstCon{
+    display: grid;
+   grid-template-columns:repeat(3,1fr);
+   position: relative;
+  margin: 0 auto;
+  top:200px
+
+}
+
+@keyframes images {
+    0%{
+transform: rotate(0);
+    }
+
+    50%{
+        transform:rotate(45deg) ;
+    }
+100%{
+    transform: rotate(360deg);
+}
+
+}
+
+.menuCon{
+    position: relative;
+display:block;
+    display: flex;
+    
+}
+
+.menuCon a{
+    font-size: 3rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding:20px;
+}
+
+
+.footerLink{
+    position: relative;
+    top:300px;
+    background-color:rgb(119, 89, 89);
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    align-items: center;
+    text-align: center;
+}
+.footerLink a{
+    font-size:5rem;
+}
+
+.socialIcon{
+    display:flex;
+    margin-left: 200px;
+
+}
+.socialIcon h2{
+    padding:20px;
+    color:green;
+    transition: .3s all ease;
+}
+.socialIcon h2:hover{
+ transform: scale(2);
+
+}
+.secondFooter a{
+    padding: 20px;
+}
+
+
+.firstFooter h1{
+    color:aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px) {
+
+    nav h1{
+        position: relative;
+        top:30px;
+        left:-40px
+    }
+
+
+    .firstCon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       position: relative;
+       top:-200px;
+
+    }
+    
+    
+    .firstCon img{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        animation: images 1s infinite linear ;
+        border-radius: 50%;
+    
+    }
+    .menuCon{
+        display:none;
+    }
+nav{
+    height: 100px;
+}
+
+.menuBtn{
+    display: block;
+}
+
+
+    @keyframes images {
+        0%{
+    transform: rotate(0);
+        }
+    
+        50%{
+            transform:rotate(45deg) ;
+        }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+    }
+    
+
+.footerLink{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    background-color: rgb(8, 8, 27);
+    margin-top: -400px;
+}
+
+.socialIcon {
+margin-left:20px
+}
+    }

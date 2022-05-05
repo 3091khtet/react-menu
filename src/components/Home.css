@@ -1,0 +1,74 @@
+.homeCon {
+    display: flex;
+  transition: .4s all ease;
+    align-items: center;
+    flex-wrap: wrap;
+position: relative;
+top:-1200px;
+}
+
+.homeDown{
+    display: flex;
+  position:relative;
+ top:100px;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: .4s all ease;
+}
+
+
+.homeCon,.homeDown h1{
+background:linear-gradient(to left,cyan,greenYellow);
+-webkit-background-clip: text;
+-webkit-text-fill-color:transparent;
+font-size: 2rem;
+}
+.homeCon,.homeDown p{
+    background:linear-gradient(to left,rgb(111, 0, 255),rgb(47, 245, 255));
+-webkit-background-clip: text;
+-webkit-text-fill-color:transparent;
+width: 600px;
+font-size: 2rem;
+line-height:35px;
+
+}
+
+
+
+.homeCon,.homeDown img{
+    border-radius: 50%;
+    border:10px solid rgb(255, 238, 0);
+    height: 400px;
+    width:400px;
+}
+
+@media (max-width:768px) {
+    .homeDown img{
+        width:350px ;
+        height: 350px;
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 50px;
+      
+            }
+
+}
+
+@media (max-width:320px) {
+   .homeDown img{
+width:280px ;
+height: 280px;
+display: flex;
+align-items: center;
+margin-left: 10px;
+margin-top: 50px;
+    }
+.homeDown p{
+    max-width: 315px;
+    font-size: 1rem;
+}
+
+
+
+}

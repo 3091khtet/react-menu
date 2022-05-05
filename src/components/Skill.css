@@ -1,0 +1,238 @@
+.skillCon{
+    position:relative;
+    bottom:2800px;
+    transition: .5s all ease;
+    
+}
+.skillDown{
+position: relative;
+bottom:1050px ;
+transition:.5s all ease;
+}
+
+
+ .skillBar{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+ .skillBar li{
+    display: flex;
+   flex-wrap: wrap;
+   align-items:center;
+   margin-left:-50px;
+   margin-top:50px;
+}
+.skillBar li:nth-child(2){
+margin-left: -100px;
+}
+.skillBar li:nth-child(4){
+    margin-left: -100px;
+    }
+
+    .skillBar li:nth-child(6){
+        margin-left: -100px;
+        }
+
+
+        .node{
+            font-size: 4rem;
+                }
+            
+            .mongoDb{
+                font-size: 4rem;
+            }
+            .mySql{
+                font-size: 4rem;
+            }
+            
+            
+.accordionImgCon{
+    margin-left:300px;
+}
+            
+
+
+
+
+
+
+
+.skillBar .bar{
+    width:400px;
+    height:20px;
+    border:3px solid gray;
+    border-radius: 20px;
+}
+
+ .skillBar .skillSubject{
+    font-size:4rem;
+    margin-right: 30px;
+}
+ .html{
+width:80%;
+height:100%;
+animation:html 3s alternate-reverse linear ;
+background-color: crimson;
+}
+.css{
+    width:80%;
+    height:100%;
+    animation:css 3s alternate-reverse linear ;
+    background-color: rgb(83, 20, 220);
+    }
+
+
+
+
+
+
+
+
+
+
+@keyframes html {
+    0%{
+        width:0%;
+    }
+    100%{
+        wdith:80%;
+    }
+}
+
+@keyframes css {
+    0%{
+        width:0%;
+    }
+    100%{
+        wdith:80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+
+.skillDown{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+    .skillBar{
+        display:flex;
+        flex-direction: column;
+    
+        align-items: center;
+    }
+    .skillBar li:nth-child(1){
+        margin-left: -100px;
+        }
+        .skillBar li:nth-child(3){
+            margin-left: -100px;
+            }
+        
+            .skillBar li:nth-child(5){
+                margin-left: -100px;
+                }
+                .skillBar li:nth-child(7){
+                    margin-left: -100px;
+                    }
+       
+.accordionImgCon{
+    margin-left:-60px;
+    margin-top:50px;
+}
+
+.con{
+    max-width:200px;
+    max-height:150px;
+
+}
+.con img{
+    max-width:200px;
+    max-height:150px;
+}
+
+}
+
+@media (max-width:320px) {
+
+    
+.skillDown{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -160px;
+    margin-left: -30px;
+
+}
+
+    
+    .skillBar{
+        display:flex;
+        flex-direction: column;
+       
+        align-items: center;
+    }
+    .skillBar .bar{
+        max-width:200px;
+        max-height: 15px;
+    }
+
+    .skillBar li:nth-child(1){
+        margin-left: -100px;
+        }
+        .skillBar li:nth-child(3){
+            margin-left: -100px;
+            }
+        
+            .skillBar li:nth-child(5){
+                margin-left: -100px;
+                }
+                .skillBar li:nth-child(7){
+                    margin-left: -100px;
+                    }
+    
+
+                    .accordionImgCon{
+                        margin-left:-50px;
+                        margin-bottom:20px;
+                    }
+                    .con{
+                        max-width:200px;
+                        max-height:150px;
+                
+                    }
+                    .con img{
+                        max-width:200px;
+                        max-height:150px;
+                    }
+
+
+}
