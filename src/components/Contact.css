@@ -102,7 +102,8 @@ background-color:coral;
     font-size:3rem;
 position:absolute;
     color:red;
-    right:5%;
+    right:40%;
+    bottom:-40px;
 }
 
 
@@ -121,6 +122,9 @@ position:absolute;
         flex-direction: column;
     }
     
+
+
+
     }
     
     
