@@ -1,10 +1,178 @@
 .contactCon{
-    position: relative;
-    margin-top: 500px;
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center ;
+}
+
+.contactCon .contactHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+justify-content: center;
+}
+
+.contactCon .contactBody{
+
+display:flex;
+justify-content:space-evenly;
+flex-wrap: wrap;
+}
+.contactBody div{
+margin:50px 100px;
+}
+.contactFooter{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    flex-wrap: wrap;
+}
+
+.contactFooter input{
+    margin:60px 50px;
+    width:400px;
+    border:none;
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size:2rem;
+}
+.contactFooter textarea{
+ height:130px;
+ border: none;
+ outline:none;
+ background-color: cadetblue;
+ border-radius: 20px;
+ font-size:2rem;
+}
+
+
+.contactFooter button{
+    height:80px;
+    width:250px;
+    font-size:1.8rem;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    justify-content:space-around;
+    transition:.2s ;
+    
+}
+.contactFooter button:hover .send{
+display:block;
+transition: .3s all ease;
+transform:rotate(45deg);
+}
+.contactFooter  .send{
+    font-size: 3rem;
+    background:linear-gradient(to right,blue,rgb(190, 33, 248),red);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  
+    font-weight:888;
+}
+.contactFooter button:hover .send{
+    animation:send 1s infinite;
+   
+}
+
+.contactFooter button:hover{
+box-shadow:0 0 10px yellow,
+            0 0 20px cyan,
+            0 0 30px red,
+            0 0 40px white;
+background-color:coral;
+}
+
+
+@keyframes send {
+    25%{
+        transform:translateY(10px);
+    }
+
+50%{
+    transform:translateY(-10px);
+}
+
+}
+
+
+.arrowTop{
+    font-size:3rem;
+position:absolute;
+    color:red;
+    right:5%;
 }
 
 
 
-.contactCon  p{
-font-size: 3rem;
-}
+
+
+
+@media (max-width:768px) {
+    
+    .contactCon{
+        display:flex;
+        flex-direction: column;
+    }
+    .contactFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    }
+    
+    
+    @media (max-width:600px) {
+      .contactFooter textarea{
+            width:400px;
+        }
+    }
+    
+    
+    @media (max-width:550px) {
+        .contactFooter textarea{
+              width:350px;
+          }
+      }
+    
+      
+    @media (max-width:500px) {
+        .contactFooter textarea{
+              width:300px;
+              font-size:1.5rem;
+          }
+          .contactFooter input{
+              width:300px;
+              font-size: 1.5rem;
+          }
+      }
+    
+      @media (max-width:423px) {
+        .contactFooter textarea{
+              width:300px;
+              font-size:1.5rem;
+          }
+          .contactFooter input{
+              width:300px;
+              font-size:1.5rem;
+          }
+      }
+    
+    
+      @media (max-width:350px) {
+         .contactHeader,.contactBody{
+             margin-left:-50px;
+         }
+        .contactFooter textarea{
+              width:300px;
+              font-size:1.5rem;
+              margin-left: -10px;
+          }
+          .contactFooter input{
+              width:300px;
+              font-size:1.5rem;
+            margin-left: -10px;
+          }
+      }

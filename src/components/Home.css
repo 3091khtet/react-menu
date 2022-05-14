@@ -1,74 +1,79 @@
-.homeCon {
-    display: flex;
-  transition: .4s all ease;
-    align-items: center;
+.homeCon{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
     flex-wrap: wrap;
-position: relative;
-top:-1200px;
+    position:relative;
+    top:100px;
+  
 }
 
-.homeDown{
-    display: flex;
-  position:relative;
- top:100px;
-    align-items: center;
-    flex-wrap: wrap;
-    transition: .4s all ease;
-}
-
-
-.homeCon,.homeDown h1{
-background:linear-gradient(to left,cyan,greenYellow);
--webkit-background-clip: text;
--webkit-text-fill-color:transparent;
-font-size: 2rem;
-}
-.homeCon,.homeDown p{
-    background:linear-gradient(to left,rgb(111, 0, 255),rgb(47, 245, 255));
--webkit-background-clip: text;
--webkit-text-fill-color:transparent;
-width: 600px;
-font-size: 2rem;
-line-height:35px;
-
+.homeCon p{
+    width:600px;
+    line-height:1.3;
+    background: linear-gradient(to right,red,yellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 100;
 }
 
 
-
-.homeCon,.homeDown img{
+.homeCon img{
     border-radius: 50%;
-    border:10px solid rgb(255, 238, 0);
-    height: 400px;
-    width:400px;
+    border:8px solid rgb(227, 252, 1);
+    width:300px;
+    height:300px;
 }
+.homeContent h1{
+    background: linear-gradient(to right,rgb(250, 4, 225),rgb(0, 208, 255),rgb(255, 255, 0),red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 888;
+}
+
+
+
+
 
 @media (max-width:768px) {
-    .homeDown img{
-        width:350px ;
-        height: 350px;
+    .homeCon{
         display: flex;
+        flex-direction: column;
         align-items: center;
-        margin-top: 50px;
-        margin-left: 50px;
-      
-            }
-
-}
-
-@media (max-width:320px) {
-   .homeDown img{
-width:280px ;
-height: 280px;
-display: flex;
-align-items: center;
-margin-left: 10px;
-margin-top: 50px;
     }
-.homeDown p{
-    max-width: 315px;
-    font-size: 1rem;
+
+
+.homeCon img{
+    width:250px;
+    height:250px;
+    margin-top:50px;
+}
+.homeContent .firstP{
+    width:400px;
+    font-size: 1.2rem;
+}
+.homeContent h1{
+    width:300px;
+    font-size: 1.4rem;
+}
+}
+
+@media (max-width:500px) {
+    .homeContent .firstP{
+        width:250px;
+      
+    }
+    .homeCon img{
+        width:200px;
+        height: 200px;
+    }
+   
 }
 
 
 
+@media (max-width:450px) {
+   .homeContent h1{
+       font-size:1.2rem;
+   }
 }

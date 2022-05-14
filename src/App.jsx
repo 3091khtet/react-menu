@@ -1,11 +1,11 @@
-import Side from "./components/Side"
 
+import SideBar from "./components/SideBar"
 
 function App() {
   return (
     <>
 
-<Side/>
+<SideBar/>
 
 
     </>
