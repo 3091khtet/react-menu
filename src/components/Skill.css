@@ -256,12 +256,18 @@ background:linear-gradient(to right,red,purple,green,cyan,yellow);
     width:350px;
     height: 300px;
     background-color: aqua;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
     
 }
 .skillImgCon img{
     width:350px;
-    height: 300px;
+    height:290px;
     border-radius: 30px;
+    margin-left:1px;
 }
 h5{
     font-weight: 888;
@@ -316,6 +322,18 @@ align-items: center;
     align-items: center;
 }
 
+.footerImg .skillImgCon{
+    height:230px;
+    width:250px;
+    margin-top:50px;
+    }
+    .footerImg .skillImgCon img{
+        height:230px;
+        width:250px;
+    }
+    
+    
+    
 
 
 

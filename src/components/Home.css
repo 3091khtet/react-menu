@@ -40,7 +40,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-left:-80px;
+    
     }
 
 
@@ -61,7 +61,7 @@
 
 @media (max-width:500px) {
     .homeContent .firstP{
-        width:250px;
+        width:300px;
       
     }
     .homeCon img{

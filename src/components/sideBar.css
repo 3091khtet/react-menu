@@ -117,7 +117,7 @@ header nav li i{
 .night{
     position:absolute;
     width:100%;
-    height:800%;
+    height:500%;
     left:0;
     top:0;
     background-color: black;
@@ -225,7 +225,7 @@ left:-250px;
 .night{
     position:absolute;
     width:100%;
-    height:800%;
+    height:550%;
     left:0;
     top:0;
     background-color: black;
@@ -239,7 +239,7 @@ width:100%;
 position:absolute;
 top:0;
 left:0;
-height:400%;
+height:200%;
 background-color: rgb(193, 201, 208);
 transition:.4s all ease;
 
@@ -250,7 +250,7 @@ transition:.4s all ease;
 }
 
 .mainContent{
-    margin-left:20px;
+    margin-left:40px;
 }
 
 

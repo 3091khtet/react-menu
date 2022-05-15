@@ -103,9 +103,17 @@ background-color:coral;
 position:absolute;
     color:red;
     right:40%;
-    bottom:-40px;
+    bottom:-50px;
+    animation:arrowTop 2s infinite;
 }
-
+@keyframes arrowTop {
+    25%{
+transform:rotate(45deg);
+    }
+    50%{
+transform: rotate(360deg);
+    }
+}
 
 
 
