@@ -117,7 +117,7 @@ setLog(!log)
 </div>
 
 
-<div className="aboutCon" id="about" data-aos="fade-left">
+<div className="aboutCon" id="about">
 
 <img src="https://media.istockphoto.com/photos/empty-classroom-picture-id1340516763?b=1&k=20&m=1340516763&s=170667a&w=0&h=zA05D-poPoIdoa06_vL2VLDOdBpPzMUKxUphHhx22jc=" alt="" />
 
@@ -132,7 +132,7 @@ setLog(!log)
 
 
 
-<div className="courseCon" id="course" data-aos="fade-right">
+<div className="courseCon" id="course" >
 
 <h1>our latest Course</h1>
 
@@ -219,13 +219,13 @@ setLog(!log)
      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio similique culpa aspernatur sit ab delectus tempore non, modi quo unde libero earum? Veniam libero id quos necessitatibus consequuntur a minima?</p>
      <button>learn More</button>
   </div>
-<img data-aos="flip-right" src="https://media.istockphoto.com/photos/group-photo-at-school-picture-id911030028?b=1&k=20&m=911030028&s=170667a&w=0&h=KQvqkzbHIt5FDGsbyibSzufTqXUTj49xFCM7zFzpPnI=" alt="" />
+<img src="https://media.istockphoto.com/photos/group-photo-at-school-picture-id911030028?b=1&k=20&m=911030028&s=170667a&w=0&h=KQvqkzbHIt5FDGsbyibSzufTqXUTj49xFCM7zFzpPnI=" alt="" />
 </div>
 
 
 
 <div className="contactCon" id="contact">
-   <h1 data-aos="zoom-in-up">Contact us</h1>
+   <h1 >Contact us</h1>
   <div className="contactContent">
     <div className='contactBox'>
   <input type="text" />
