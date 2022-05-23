@@ -1,80 +1,68 @@
 .homeCon{
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-direction: column;
     align-items:center;
-    flex-wrap: wrap;
-    position:relative;
-    top:100px;
-  
+    justify-content: center;
+    margin-top:200px;
 }
-
 .homeCon p{
-    width:600px;
-    line-height:1.3;
-    background: linear-gradient(to right,red,yellow);
-    -webkit-text-fill-color: transparent;
+    width: 600px;
+    background:linear-gradient(to right,purple,greenyellow);
     -webkit-background-clip: text;
-    font-weight: 100;
-}
-
-
-.homeCon img{
-    border-radius: 50%;
-    border:8px solid rgb(227, 252, 1);
-    width:300px;
-    height:300px;
-}
-.homeContent h1{
-    background: linear-gradient(to right,rgb(250, 4, 225),rgb(0, 208, 255),rgb(255, 255, 0),red);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
     font-weight: 888;
 }
-
-
-
-
-
-@media (max-width:768px) {
-    .homeCon{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-    }
-
-
-.homeCon img{
-    width:250px;
-    height:250px;
-    margin-top:50px;
-}
-.homeContent .firstP{
-    width:400px;
-    font-size: 1.2rem;
-}
-.homeContent h1{
-    width:300px;
-    font-size: 1.4rem;
-}
-}
-
-@media (max-width:500px) {
-    .homeContent .firstP{
-        width:300px;
-      
-    }
-    .homeCon img{
-        width:200px;
-        height: 200px;
-    }
-   
-}
-
-
-
-@media (max-width:450px) {
-   .homeContent h1{
-       font-size:1.2rem;
+.homeCon button{
+    position: relative;
+    width:140px;
+    padding:10px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    overflow: hidden;
    }
+
+
+   
+.homeCon button::before{
+    position: absolute;
+    content:"";
+    top:0px;
+    left:-50%;
+    background:#f93606;
+height:100%;
+width:20%;
+transition: .5s all ease;
+
+}
+.homeCon button:hover::before{
+    left:120%;
+}
+
+
+.homeCon button::after{
+    content: "";
+position: absolute;
+background-color:yellow ;
+width:20%;
+height: 100%;
+right:-50%;
+transition:.2s all ease;
+}
+
+.homeCon button:hover::after{
+    right:100%;
+
+}
+
+
+
+
+
+@media (max-width:810px) {
+    
+.homeCon p,h1{
+    width:300px;
+}
+
+
 }

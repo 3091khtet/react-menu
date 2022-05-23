@@ -1,0 +1,51 @@
+
+.teacherCon{
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.teacherContent{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teacherContent p{
+    width: 500px;
+    font-size:1.4rem;
+}
+
+
+.teacherCon img{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:810px) {
+    .teacherContent h1{
+     font-size:2rem;
+     width:320px;
+    }
+.teacherContent p{
+    width:310px;
+}
+
+.teacherCon img{
+    width:320px;
+    height: 300px;
+}
+
+
+}
+
+
+

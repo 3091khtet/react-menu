@@ -1,14 +1,17 @@
+import React from 'react'
+import Edu from "./Edu"
 
-import SideBar from "./components/SideBar"
+
+
 
 function App() {
   return (
-    <>
+  <>
+  
 
-<SideBar/>
-
-
-    </>
+  <Edu/>
+  
+  </>
   )
 }
 
