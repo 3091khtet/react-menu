@@ -1,0 +1,187 @@
+html,body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    box-sizing:border-box;
+    user-select: none;
+}
+.homeContent{
+    background-color:rgba(0,0,0,.6);
+
+   width:100%;
+   height:100%;
+   position: absolute;
+   top:0;
+   left:0;
+ 
+}
+
+
+.homeCon img{
+height:100vh;
+width:100vw;
+
+
+}
+
+.navbar .container-fluid .navbar-brand img{
+    width:200px;
+    height:100px;
+    border:none;
+    outline:none;
+    animation:logo 5s  infinite;
+}
+
+@keyframes logo {
+    25%{
+       
+        filter: blur(1.4px);
+    }
+    
+
+
+
+}
+
+.container-fluid a{
+    text-decoration: none;
+}
+.container-fluid a button{
+   border-radius: 30px;
+}
+
+.homeIntro{
+    z-index:50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+position: relative;
+top:120px;
+    width:600px;
+    margin:0 auto;
+}
+
+
+
+.homeIntro form{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+form input{
+width:400px;
+height:60px;
+border-radius: 10px;
+
+}
+form button{
+    width:200px;
+    height:60px;
+    border-radius: 10px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (max-width:810px) {
+
+    html,body{
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+        box-sizing:border-box;
+        user-select: none;
+    }
+
+
+    .homeContent{
+        background-color:rgba(0,0,0,.6);
+    
+       width:100%;
+       height:100%;
+       position: absolute;
+       top:0;
+       left:0;
+     
+    }
+.homeIntro{
+    margin-top: 100px;
+  
+}
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width:536px) {
+    .homeContent .navbar-brand img{
+        width: 150px !important;
+        height: 70px !important;
+    }
+    
+    
+    .homeIntro{
+    width:450px;
+}
+
+
+
+}
+
+
+@media (max-width:498px) {
+    .homeIntro .typo{
+font-size: 2rem;
+    }
+
+.homeIntro h4{
+    width:400px;
+}
+
+
+
+}
+
+
+@media (max-width:434px) {
+    
+.homeIntro {
+    width:350px;
+}
+
+
+}
+
+@media (max-width:414px) {
+    
+.homeIntro input{
+    width:330px;
+}
+.homeIntro button{
+    width:120px;
+    height:50px;
+    font-size:1.3rem;
+}
+.homeIntro h4{
+    width:350px;
+    margin-left: 40px;
+}
+.homeIntro .typo{
+    margin-left: 50px;
+}
+}
+
+
+@media (max-width:350px) {
+    .homeIntro input,h4{
+        width:300px;
+    }
+}
+

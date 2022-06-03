@@ -1,0 +1,117 @@
+.signContent{
+ 
+display: flex;
+align-items: center;
+justify-content: center;
+ 
+}
+
+
+.signContent form{
+    background-color:rgba(0,0,0,.7) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:40%;
+margin-top: 60px;
+padding:40px;
+position: fixed;
+
+
+
+    border-radius: 40px;
+    justify-content: center;
+
+    position: absolute;
+    top:0;
+  
+}
+
+
+.signContent form .formContent{
+    display: flex;
+    flex-direction: column;
+  
+    text-align: center;
+ 
+}
+
+.signBody input{
+    margin-left: 0px;
+}
+
+
+
+
+
+form h2{
+    font-size:1.8rem;
+    font-weight: 775;
+    color:darkorange;
+}
+
+.signContent .signBody{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.signBody input{
+    width:50px;
+    height:40px;
+}
+
+
+
+
+@media (max-width:1200px) {
+    .signContent form{
+    width:500px;
+    }
+ 
+}
+
+
+@media (max-width:547px) {
+
+    .signContent form{
+        width:400px;
+        display: flex;
+     
+        }
+.signContent .formContent{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+    .signContent form input{
+    width:340px;
+    }
+ 
+.signContent form .formContent{
+    margin-left: -20px;
+}
+.formContent button{
+    margin-left: 80px;
+}
+
+.formContent .signBody{
+    margin-left:-100px;
+}
+
+}
+
+@media (max-width:477px) {
+    .signContent form{
+        width:330px;
+    }
+.signContent form .formContent{
+    position: relative;
+    left:-10px;
+}
+.signContent form input{
+    width:310px;
+}
+
+}

@@ -1,0 +1,135 @@
+.questionCon{
+    position:absolute;
+    background-color: rgb(41, 44, 46);
+    width:100%;
+   padding:30px;
+    top:370%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom:4px solid rgb(221, 207, 207);
+    border-top:4px solid rgb(221, 207, 207) ;
+}
+
+.accordion{
+    width:700px;
+    margin-top:100px;
+}
+
+.accordion .accordion-item{
+background-color:black;
+}
+
+.accordion-item h2{
+    background-color: black;
+}
+
+.accordion-item h2 button{
+    color:rgb(251, 10, 10);
+    font-weight:555;
+    font-size:2rem;
+    
+}
+
+.accordion-item .accordion-body{
+    color:whitesmoke;
+    font-weight:888;
+    font-size: 1.6rem;
+}
+
+form{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+form input{
+width:400px;
+height:60px;
+border-radius: 10px;
+
+}
+form button{
+    width:200px;
+    height:60px;
+    border-radius: 10px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.questionCon h4{
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+@media (max-width:1440px) {
+   .questionCon{
+       top:283%;
+   }
+}
+
+
+
+
+
+@media (max-width:719px) {
+   
+
+.questionCon .accordion{
+    width:400px;
+}
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:415px) {
+    
+
+.questionCon .accordion{
+    width:330px;
+}
+
+.questionCon form input{
+width:320px;
+}
+
+
+
+
+}
+
+
+
+@media (max-width:370px) {
+    .questionCon{
+        top:457%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

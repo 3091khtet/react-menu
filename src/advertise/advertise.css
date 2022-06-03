@@ -1,0 +1,102 @@
+.advertiseCon{
+  
+    background-color:rgba(0,0,0,1);
+    position: absolute;
+    top:620px;
+    left:0;
+    width:100%;
+   
+}
+.firstAdvertise,.secondAdvertise,.thirdAdvertise,.fourthAdvertise{
+    border-top:5px solid rgb(66, 61, 61);
+    border-bottom:5px solid rgb(78, 75, 75);
+    padding-bottom:100px;
+}
+
+.thirdAdvertise{
+  
+ display:flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+
+}
+.thirdAdvertise .thirdContent{
+    margin-top:50px;
+}
+.firstAdvertise,.secondAdvertise,.fourthAdvertise{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.firstAdvertise .firstContent{
+    width:500px;
+}
+.secondAdvertise .secondContent{
+   width:400px;
+}
+
+
+
+
+.thirdAdvertise .typo{
+width:500px;
+
+}
+
+.fourthAdvertise .fourthContent{
+    width:500px;
+}
+
+
+
+@media (max-width:810px) {
+   .advertiseCon{
+       margin-top: -13px;
+   }
+
+
+
+.secondAdvertise .secondContent{
+  margin-top: 100px;
+}
+.fourthAdvertise .fourthContent{
+    margin-top: 100px;
+}
+
+
+}
+
+@media (max-width:718px) {
+    .firstAdvertise img{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:540px) {
+    .thirdAdvertise{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        height:250px;
+        justify-content: center;
+    }
+    .thirdAdvertise .typo{
+        width:300px;
+        font-size:1.6rem;
+    }
+}
+
+@media (max-width:416px) {
+    .fourthAdvertise img{
+        width:430px;
+    }
+}
+
+@media (max-width:370px) {
+    .advertiseCon{
+        top:710px;
+    }
+}
