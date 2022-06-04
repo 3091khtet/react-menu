@@ -35,11 +35,22 @@
 
 }
 
+.courseContent .card .card-body{
+    background-color: aliceblue;
+}
+
+.card-body h5{
+color:red;
+font-weight:777;
+}
+.card-body p{
+font-weight: 888;
+background:linear-gradient(to left,cyan,yellow);
+-webkit-background-clip: text;
+-webkit-text-fill-color:transparent;
 
 
-
-
-
+}
 
 
 

@@ -10,6 +10,8 @@ import "./components/contact.css"
 import "./components/teacher.css"
 import "./components/quick.css"
 
+import './index.css';
+
 import Aos from "aos"
 
 
@@ -40,10 +42,10 @@ setLog(!log)
 {top?<div className="ri-close-line fs-1 text-light"></div>:<div className="ri-menu-line  fs-1 text-light"></div>}
 </div>
 
-<a href="#" className="navbar-brand fs-2 navIcon d-flex align-items-center"><FaUserGraduate />LOGO</a>
+<a href="#" data-aos="flip-up" className="navbar-brand fs-2 navIcon d-flex align-items-center"><FaUserGraduate />LOGO</a>
 
 
-<ul className={top?" menuTop":"navbar-nav d-flex menuCon"} onClick={top&&menuTop}>
+<ul  data-aos="fade-right"  className={top?" menuTop":"navbar-nav d-flex menuCon"} onClick={top&&menuTop}>
         <li className="nav-item fs-3">
         <a href="#home">home</a>
         </li>
@@ -63,7 +65,7 @@ setLog(!log)
 
 
 
-<BiUserCircle className='navIcon user fs-1 text-light' onClick={loginTop}/>
+<BiUserCircle  data-aos="fade-right-up" className='navIcon user fs-1 text-light' onClick={loginTop}/>
 
     
 </div>
@@ -73,7 +75,7 @@ setLog(!log)
 <div className={log?"modelContent modelDown ":"modelContent"} >
 
 
-<form action='#'>
+<form action='#'  data-aos="zoom-in-out">
 <div className='loginLabel'>
   <label className='fs-1'>Login</label>
   <div className="ri-close-line close fs-1" onClick={log&&loginTop}></div>
@@ -104,20 +106,20 @@ setLog(!log)
 
 <main >
 
-<div className="homeCon" id="home" >
+<div className="homeCon" id="home" data-aos="fade-down" >
 
 
 
-<h1 className='display-2'>Education from Home</h1>
-<p className='fs-4'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci rem nulla possimus? Perspiciatis totam voluptates, voluptas harum eos molestiae dolorum exercitationem, cupiditate voluptatibus recusandae ea repudiandae pariatur, at doloremque praesentium.</p>
+<h1 className='display-2' data-aos="fade-up-down">Education from Home</h1>
+<p className='fs-4' data-aos="fade-right-down">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci rem nulla possimus? Perspiciatis totam voluptates, voluptas harum eos molestiae dolorum exercitationem, cupiditate voluptatibus recusandae ea repudiandae pariatur, at doloremque praesentium.</p>
 
-<button>get started</button>
+<button data-aos="fade-up-right">get started</button>
 
 
 </div>
 
 
-<div className="aboutCon" id="about">
+<div className="aboutCon" id="about" >
 
 <img src="https://media.istockphoto.com/photos/empty-classroom-picture-id1340516763?b=1&k=20&m=1340516763&s=170667a&w=0&h=zA05D-poPoIdoa06_vL2VLDOdBpPzMUKxUphHhx22jc=" alt="" />
 
@@ -142,9 +144,9 @@ setLog(!log)
 <div className="card">
   <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500" className="card-img-top" />
   <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">FrontEndDeveloping</h5>
+    <p className="card-text">Some quick example text to build on the  and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">study Now!</a>
   </div>
 </div>
 
@@ -152,9 +154,9 @@ setLog(!log)
 <div className="card">
   <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500" className="card-img-top" />
   <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">BackendDeveloping</h5>
+    <p className="card-text">Some quick example text to build on the  and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">study Now</a>
   </div>
 </div>
 
@@ -163,9 +165,9 @@ setLog(!log)
 <div className="card">
   <img src="https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxlYXJuaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500" className="card-img-top" />
   <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">Structured Query Language</h5>
+    <p className="card-text">Some quick example text to build on the  and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">study Now</a>
   </div>
 </div>
 
@@ -174,9 +176,9 @@ setLog(!log)
 <div className="card">
   <img src="https://media.istockphoto.com/photos/smiling-indian-business-man-working-on-laptop-at-home-office-young-picture-id1307615661?b=1&k=20&m=1307615661&s=170667a&w=0&h=Zp9_27RVS_UdlIm2k8sa8PuutX9K3HTs8xdK0UfKmYk=" className="card-img-top" />
   <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">Mongoose</h5>
+    <p className="card-text">Some quick example text to build on the  and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">study Now</a>
   </div>
 </div>
 
@@ -185,9 +187,9 @@ setLog(!log)
 <div className="card">
   <img src="https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500" className="card-img-top" />
   <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">AndroidDeveloping</h5>
+    <p className="card-text">Some quick example text to build on the  and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">study Now</a>
   </div>
 </div>
 
@@ -195,9 +197,9 @@ setLog(!log)
 <div className="card">
   <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bGVhcm5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500" className="card-img-top" />
   <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
+    <h5 className="card-title">IosDevelopement</h5>
+    <p className="card-text">Some quick example text to build on the  and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">study Now</a>
   </div>
 </div>
 
@@ -212,7 +214,7 @@ setLog(!log)
 
 
 
-<div className="teacherCon" id="teacher">
+<div className="teacherCon" id="teacher" >
   <div className="teacherContent">
   <h1 className="display-2">
      our expert Teacher Team</h1>
@@ -224,14 +226,14 @@ setLog(!log)
 
 
 
-<div className="contactCon" id="contact">
+<div className="contactCon" id="contact"  >
    <h1 >Contact us</h1>
   <div className="contactContent">
     <div className='contactBox'>
-  <input type="text" />
-  <input type="text" />
-  <input type="text" />
-<textarea ></textarea>
+  <input type="text" placeholder='username....' />
+  <input type="text"  placeholder='email....'/>
+  <input type="text" placeholder='password...'/>
+<textarea placeholder='comment here ...'></textarea>
 <button>send now</button>
   </div>
 
@@ -245,7 +247,7 @@ setLog(!log)
 
 
 
-<footer className="quickLinkCon">
+<footer className="quickLinkCon" >
 
   <div className="branch">
   <h3>Branch Location</h3>
@@ -264,7 +266,7 @@ setLog(!log)
 <a href="#contact">contact</a>
 </div>
 
-<div className="contactInfo">
+<div className="contactInfo" >
 <i className="ri-map-pin-line"></i>
 <i className="ri-mail-line"></i>
 <i className="ri-phone-line"></i>
@@ -275,7 +277,7 @@ setLog(!log)
 
 </footer>
 
-<div className="lastLine">
+<div className="lastLine" data-aos="fade-down">
   <h5>Created by <strong>Mr.Dennis Daniel</strong></h5>
 <h5>All Rights Reserved</h5>
 </div>

@@ -10,7 +10,13 @@ nav ul li{
 margin:auto 20px;
 list-style: none;
 }
-
+ul li a{
+    text-decoration: none;
+    font-weight:888;
+    background:linear-gradient(to right,cyan,rgb(8, 25, 152));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
 .burgerCon{
     display: none;
 }
@@ -138,7 +144,7 @@ margin-right: 30px;
     
 .modelContent form{
 width:250px;
-margin-bottom:200px;
+margin-bottom:0px;
 }
 form input{
    width:220px;

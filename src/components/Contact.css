@@ -35,6 +35,7 @@
 margin:20px 20px;
 width: 300px;
 font-size:2rem;
+border-radius: 30px;
 }
 
 
@@ -45,6 +46,7 @@ font-size: 1.4rem;
 border-radius: 30px;
 position: relative;
 overflow: hidden;
+z-index: 0;
 }
 
 .contactBox button::after{
@@ -55,13 +57,17 @@ overflow: hidden;
     right:0;
     background-color: chartreuse;
     transition:.3s all ease;
+    z-index:-1;
 }
 .contactBox button:hover::after{
      left:0;
      width:100%;
 }
 
-
+.contactBox button:hover{
+    color:red;
+    font-weight: 888;
+}
 
 
 

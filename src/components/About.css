@@ -29,7 +29,7 @@
     padding: 10px;
     border-radius:30px;
 overflow: hidden;
-
+z-index:0;
 }
 
 
@@ -42,6 +42,7 @@ overflow: hidden;
     background-color: aqua;
 transition: .4s;
 right: 0;
+z-index:-1;
 }
 
 .aboutContent button:hover::before{
