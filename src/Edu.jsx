@@ -45,7 +45,7 @@ setLog(!log)
 <a href="#" data-aos="flip-up" className="navbar-brand fs-2 navIcon d-flex align-items-center"><FaUserGraduate />LOGO</a>
 
 
-<ul    className={top?" menuTop":"navbar-nav d-flex menuCon"} onClick={top&&menuTop}>
+<ul  className={top?" menuTop":"navbar-nav d-flex menuCon"} onClick={top&&menuTop}>
         <li className="nav-item fs-3">
         <a href="#home">home</a>
         </li>
@@ -230,10 +230,10 @@ setLog(!log)
    <h1 >Contact us</h1>
   <div className="contactContent">
     <div className='contactBox'>
-  <input type="text" placeholder='username....' />
-  <input type="text"  placeholder='email....'/>
-  <input type="text" placeholder='password...'/>
-<textarea placeholder='comment here ...'></textarea>
+  <input type="text" placeholder="username...." />
+  <input type="text" placeholder='email......'/>
+  <input type="text" placeholder="passsword....."/>
+<textarea placeholder='comment here .........................'></textarea>
 <button>send now</button>
   </div>
 
@@ -277,7 +277,7 @@ setLog(!log)
 
 </footer>
 
-<div className="lastLine">
+<div className="lastLine" >
   <h5>Created by <strong>Mr.Dennis Daniel</strong></h5>
 <h5>All Rights Reserved</h5>
 </div>
